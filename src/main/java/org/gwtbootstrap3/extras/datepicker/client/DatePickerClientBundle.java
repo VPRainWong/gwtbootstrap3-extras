@@ -31,7 +31,7 @@ public interface DatePickerClientBundle extends ClientBundle {
 
     static final DatePickerClientBundle INSTANCE = GWT.create(DatePickerClientBundle.class);
 
-    static final String VERSION = "1.6.4";
+    static final String VERSION = "1.9.0";
     static final String LOCALES_DIR = "resource/js/locales.cache." + VERSION + "/";
 
     @Source("resource/js/bootstrap-datepicker-" + VERSION + ".min.cache.js")
@@ -159,9 +159,6 @@ public interface DatePickerClientBundle extends ClientBundle {
 
     @Source(LOCALES_DIR + "bootstrap-datepicker.ms.min.js")
     TextResource ms();
-
-    @Source(LOCALES_DIR + "bootstrap-datepicker.nb.min.js")
-    TextResource nb();
 
     @Source(LOCALES_DIR + "bootstrap-datepicker.nl.min.js")
     TextResource nl();
